@@ -15,7 +15,6 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping(value = "/v1/accounts")
-@Component
 public class AccountController
 {
     @Autowired
